@@ -8,7 +8,7 @@ module Rack
       # we support _escaped_fragment_ and want to ensure people aren't
       # penalized for cloaking.
       @crawler_user_agents = [
-        # 'googlebot',
+        'googlebot',
         # 'yahoo',
         # 'bingbot',
         'baiduspider',
